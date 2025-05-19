@@ -34,11 +34,11 @@ pip install -r requirements.txt
 
 Running the Code
 
-    CNN Model:
+   CNN Model:
     
       python cnn_model.py
 
-      ViT Model:
+   ViT Model:
 
       python vit_model.py
 
