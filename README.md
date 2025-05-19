@@ -17,7 +17,7 @@ This project compares the performance of a Convolutional Neural Network (CNN) an
 ## Results (Using GPU T4)
 | Model | Accuracy | Epochs | Training Time (GPU T4) | Parameters |
 |-------|----------|--------|-----------------------|------------|
-| CNN   | 67.0%    | 5      | ~30 minutes          | 154,462    |
+| CNN   | 67.0%    | 5      | ~3  minutes          | 154,462    |
 | ViT   | 58.12%   | 70     | ~45 minutes          | 519,882    |
 | ViT   | 48.33%   | 100    | ~1 hour              | 519,882    |
 
