@@ -17,14 +17,14 @@ This project compares the performance of a Convolutional Neural Network (CNN) an
 ## Results (Using GPU T4)
 | Model | Accuracy | Epochs | Training Time (GPU T4) | Parameters |
 |-------|----------|--------|-----------------------|------------|
-| CNN   | 67.0%    | 5      | ~3  minutes          | 154,462    |
+| CNN   | 71.63%    | 5      | ~3  minutes          | 154,462    |
 | ViT   | 58.12%   | 70     | ~45 minutes          | 519,882    |
 | ViT   | 48.33%   | 100    | ~1 hour              | 519,882    |
 
 ### Key Findings
-- **CNN outperformed ViT** on CIFAR-10 with GPU T4, achieving 67.0% accuracy with significantly less training time (5 epochs) and fewer parameters.
+- **CNN outperformed ViT** on CIFAR-10 with GPU T4, achieving 71.63% accuracy with significantly less training time (5 epochs) and fewer parameters.
 - **ViT showed potential** with 58.12% accuracy at 70 epochs, but performance dropped to 48.33% at 100 epochs, possibly due to overfitting or suboptimal tuning (e.g., Mixup settings).
-- **Conclusion**: For small datasets like CIFAR-10 with GPU T4, CNNs are more efficient and effective. ViT demonstrated potential at 70 epochs (58.12%), but requires further optimization or larger datasets with pretraining to outperform CNN.
+** Conclusion **: For small datasets like CIFAR-10 with GPU T4, CNNs are more efficient and effective. ViT demonstrated potential at 70 epochs (58.12%) but requires further optimization or larger datasets with pretraining to outperform CNN.
 
 ## Setup
 ### Requirements
