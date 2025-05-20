@@ -30,7 +30,7 @@ This project compares the performance of a Convolutional Neural Network (CNN) an
 ### Requirements
 Install the required packages:
 
-pip install -r requirements.txt
+      pip install -r requirements.txt
 
 Running the Code
 
